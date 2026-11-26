@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historique - Watchdog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>🐶 Watchdog</h1>
+    <nav>
+      <a href="index.html">Sites</a>
+      <a href="stats.html">Statistiques</a>
+    </nav>
+  </header>
+
+  <main>
+    <p><a href="index.html" class="back">← Retour aux sites</a></p>
+    <h2 id="title">Historique</h2>
+    <p id="message"></p>
+    <table id="logs-table">
+      <thead>
+        <tr><th>Date</th><th>Résultat</th><th>Code</th><th>Temps</th><th>Erreur</th></tr>
+      </thead>
+      <tbody id="logs-body"></tbody>
+    </table>
+  </main>
+
+  <script src="js/history.js"></script>
+</body>
+</html>

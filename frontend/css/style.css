@@ -1,0 +1,43 @@
+body { font-family: system-ui, sans-serif; background: #f5f6fa; margin: 0; color: #222; }
+
+/* En-tête */
+header { background: #1e293b; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+header h1 { margin: 0; font-size: 1.5rem; }
+header a { color: white; margin-left: 1rem; text-decoration: none; }
+header a:hover { text-decoration: underline; }
+
+/* Contenu */
+main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+.back { color: #1e293b; text-decoration: none; }
+.back:hover { text-decoration: underline; }
+
+/* Liste des sites */
+ul { list-style: none; padding: 0; }
+li { background: white; padding: 1rem; margin-bottom: .5rem; border-radius: 8px; display: flex; gap: 1rem; align-items: center; }
+li small { color: #666; display: block; }
+li a { color: #1e293b; font-weight: 600; text-decoration: none; }
+li a:hover { text-decoration: underline; }
+
+/* Formulaire d'ajout */
+form { background: white; padding: 1rem; border-radius: 8px; display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; margin-bottom: 1rem; }
+form h2 { width: 100%; margin: 0; font-size: 1.1rem; }
+input { padding: .5rem; border: 1px solid #ccc; border-radius: 6px; }
+button { padding: .5rem 1rem; background: #1e293b; color: white; border: 0; border-radius: 6px; cursor: pointer; }
+button:hover { background: #334155; }
+
+/* Message d'erreur de l'API */
+#message { color: #b91c1c; }
+
+/* Tableau de l'historique */
+table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; }
+th, td { padding: .6rem 1rem; text-align: left; border-bottom: 1px solid #eee; }
+th { background: #f1f5f9; }
+
+
+/* Cartes de statistiques */
+.cards { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem; }
+.card { background: white; padding: 1rem 1.5rem; border-radius: 8px; flex: 1; min-width: 150px; }
+.card strong { display: block; font-size: 1.6rem; }
+.card span { color: #666; font-size: .9rem; }
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Watchdog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>🐶 Watchdog</h1>
+    <nav>
+      <a href="index.html">Sites</a>
+      <a href="stats.html">Statistiques</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="add-form">
+      <h2>Ajouter un site</h2>
+      <input type="text" id="name" placeholder="Nom" required>
+      <input type="url" id="url" placeholder="https://exemple.fr" required>
+      <input type="number" id="frequency" value="60" min="10" required>
+      <button type="submit">Ajouter</button>
+    </form>
+
+    <p id="message"></p>
+    <ul id="monitor-list"></ul>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
